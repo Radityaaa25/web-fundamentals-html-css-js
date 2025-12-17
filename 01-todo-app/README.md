@@ -22,9 +22,15 @@ Project ini difokuskan pada pembuatan struktur yang rapi, UI sederhana, serta pe
 ├─ js/
 │ └─ script.js
 └─ README.md
-
-
 > Struktur folder ini dibuat untuk memisahkan antara **struktur (HTML)**, **tampilan (CSS)**, dan **logika (JavaScript)**.
+
+## 🗂️ Todo List Progress
+
+- [ ] Day 1 – HTML semantic structure
+- [ ] Day 2 – CSS styling
+- [ ] Day 2 – JavaScript logic
+- [ ] Optional – LocalStorage
+- [ ] Optional – UI enhancement
 
 ---
 
