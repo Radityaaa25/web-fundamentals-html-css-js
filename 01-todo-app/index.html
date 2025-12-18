@@ -3,9 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>FIRST</h1>
+
+  <header>
+    <h1>Todo App</h1>
+    <p>Catat tugas harianmu dengan rapi!</p>
+  </header>
+
+  <main>
+    <section aria-label="Form tambah todo">
+      <form id="todo-form">
+        <input type="text" id="todo-input" aria-label="Input todo" placeholder="Tuliskan todo baru..." required>
+        <button type="submit">Tambah</button>
+      </form>
+    </section>
+
+    <section aria-label="Daftar todo">
+      <ul id="todo-list">
+        <li>Belajar HTML</li>
+        <li>Belajar CSS</li>
+      </ul>
+    </section>
+
+    <p class="quotes">Belajar yang giat dan capai target mu dan tunjukkan betapa habat dan pintarnya dirimu!</p>
+
+  </main>
+
+  <footer>
+    <p>&copy; Raditya 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

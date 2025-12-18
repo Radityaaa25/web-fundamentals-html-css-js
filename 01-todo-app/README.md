@@ -26,7 +26,7 @@ Project ini difokuskan pada pembuatan struktur yang rapi, UI sederhana, serta pe
 
 ## 🗂️ Todo List Progress
 
-- [ ] Day 1 – HTML semantic structure
+- [x] Day 1 – HTML semantic structure
 - [ ] Day 2 – CSS styling
 - [ ] Day 2 – JavaScript logic
 - [ ] Optional – LocalStorage
@@ -35,11 +35,16 @@ Project ini difokuskan pada pembuatan struktur yang rapi, UI sederhana, serta pe
 ---
 
 ## ✨ Fitur
+
+### Saat Ini
 - Menampilkan daftar todo
 - Menambahkan todo baru
+
+### Akan Dikembangkan
 - Menghapus todo
 - Menandai todo sebagai selesai
-- UI sederhana dan responsif
+- Penyimpanan menggunakan LocalStorage
+
 
 > *Catatan: Fitur dikembangkan secara bertahap selama beberapa hari.*
 
