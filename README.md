@@ -21,8 +21,8 @@ Setiap folder merepresentasikan **1 mini project**, yang dikerjakan secara berta
 
 ## ✅ Progress Checklist (Day 1–14)
 
-- [ ] Day 1 – Todo App (HTML structure)
-- [ ] Day 2 – Todo App (CSS & JS basic)
+- [x] Day 1 – Todo App (HTML structure)
+- [x] Day 2 – Todo App (CSS & JS basic)
 - [ ] Day 3 – Pomodoro App (UI)
 - [ ] Day 4 – Pomodoro App (Timer logic)
 - [ ] Day 5 – Landing Page (Layout)

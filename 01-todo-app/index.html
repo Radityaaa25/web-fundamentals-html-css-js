@@ -3,39 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Todo App</title>
-  <link rel="stylesheet" href="style.css">
+  <title>FocusFlow - Todo App</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+  
+  <main class="app">
   <header>
     <h1>Todo App</h1>
-    <p>Catat tugas harianmu dengan rapi!</p>
+    <p>Fokus satu tugas, selesaikan dengan tenang.</p>
   </header>
 
-  <main>
-    <section aria-label="Form tambah todo">
-      <form id="todo-form">
-        <input type="text" id="todo-input" aria-label="Input todo" placeholder="Tuliskan todo baru..." required>
+    <section class="todo-section">
+      <form>
+        <input type="text" placeholder="Tuliskan tugas hari ini..." required>
         <button type="submit">Tambah</button>
       </form>
     </section>
 
     <section aria-label="Daftar todo">
-      <ul id="todo-list">
-        <li>Belajar HTML</li>
-        <li>Belajar CSS</li>
-      </ul>
+      <ul></ul>
     </section>
-
-    <p class="quotes">Belajar yang giat dan capai target mu dan tunjukkan betapa habat dan pintarnya dirimu!</p>
-
+    
+    <p class="quote">&copy; Raditya - Project Challenge Ngoding 55 Hari</p>
   </main>
 
-  <footer>
-    <p>&copy; Raditya 2025</p>
-  </footer>
-
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

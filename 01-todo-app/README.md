@@ -27,8 +27,8 @@ Project ini difokuskan pada pembuatan struktur yang rapi, UI sederhana, serta pe
 ## 🗂️ Todo List Progress
 
 - [x] Day 1 – HTML semantic structure
-- [ ] Day 2 – CSS styling
-- [ ] Day 2 – JavaScript logic
+- [x] Day 2 – CSS styling
+- [x] Day 2 – JavaScript logic
 - [ ] Optional – LocalStorage
 - [ ] Optional – UI enhancement
 

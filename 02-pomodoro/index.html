@@ -3,9 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>FocusFlow - Pomodoro & Todo</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>FIRST</h1>
+
+  <main class="container">
+
+    <header>
+      <h1>FocusFlow</h1>
+      <p>Focus kerja dengan metode Pomodoro</p>
+    </header>
+
+    <main>
+      <section class="timer">
+        <h2>Pomodoro Timer</h2>
+
+        <div>
+          <span id="minutes">25</span>
+          <span>:</span>
+          <span id="seconds">00</span>
+        </div>
+      </section>
+
+      <section class="controls">
+          <button id="start-btn">Start</button>
+          <button id="pause-btn">Pause</button>
+          <button id="reset-btn">Reset</button>
+      </section>
+
+      <section class="mode">
+        <button id="work-btn" class="active">Work</button>
+        <button id="break-btn">Break</button>
+      </section>
+  </main>
+  <footer>
+    <p>&copy; Raditya - Project Challenge  Ngoding 55 Hari</p>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
