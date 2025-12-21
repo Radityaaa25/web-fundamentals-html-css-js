@@ -33,10 +33,10 @@ Project ini bertujuan melatih pemahaman **time-based logic**, **DOM manipulation
 ## 🗂️ Pomodoro Progress
 
 - [x] Day 3 – HTML structure & UI Pomodoro
-- [ ] Day 3 – CSS basic styling
-- [ ] Day 4 – JavaScript timer logic
+- [x] Day 3 – CSS basic styling
+- [x] Day 4 – JavaScript timer logic
 - [ ] Optional – Short break & long break
-- [ ] Optional – Sound notification
+- [x] Optional – Sound notification
 - [ ] Optional – Integration with Todo App (FocusFlow)
 
 ---
