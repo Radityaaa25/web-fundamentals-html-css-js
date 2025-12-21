@@ -1,46 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FocusFlow - Pomodoro & Todo</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusFlow - Pomodoro Timer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>FocusFlow <span class="icon">🍅</span></h1>
+        <p>Stay focused, get things done.</p>
+      </header>
 
-  <main class="container">
+      <main>
+        <section class="mode-selector">
+          <button id="work-btn" class="mode-btn active">Work Time</button>
+          <button id="break-btn" class="mode-btn">Short Break</button>
+        </section>
 
-    <header>
-      <h1>FocusFlow</h1>
-      <p>Focus kerja dengan metode Pomodoro</p>
-    </header>
+        <section class="timer-display">
+          <h2 id="timer">
+            <span id="minutes">25</span>:<span id="seconds">00</span>
+          </h2>
+        </section>
 
-    <main>
-      <section class="timer">
-        <h2>Pomodoro Timer</h2>
+        <section class="controls">
+          <button id="start-btn" class="control-btn start">Start Focus</button>
+          <button id="pause-btn" class="control-btn pause" style="display: none;">Pause</button>
+          <button id="reset-btn" class="control-btn reset">Reset</button>
+        </section>
+      </main>
 
-        <div>
-          <span id="minutes">25</span>
-          <span>:</span>
-          <span id="seconds">00</span>
-        </div>
-      </section>
+      <footer>
+        <p>&copy; Raditya - Project Challenge Ngoding 55 Hari.</p>
+      </footer>
 
-      <section class="controls">
-          <button id="start-btn">Start</button>
-          <button id="pause-btn">Pause</button>
-          <button id="reset-btn">Reset</button>
-      </section>
+      <audio src="sounds/alarm.mpeg" id="alarm-sound"></audio>
+    </div>
 
-      <section class="mode">
-        <button id="work-btn" class="active">Work</button>
-        <button id="break-btn">Break</button>
-      </section>
-  </main>
-  <footer>
-    <p>&copy; Raditya - Project Challenge  Ngoding 55 Hari</p>
-  </footer>
-
-  <script src="js/script.js"></script>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
