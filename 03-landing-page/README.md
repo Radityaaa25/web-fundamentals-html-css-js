@@ -77,8 +77,10 @@ Buka file index.html.
 
 Klik kanan lalu pilih "Open with Live Server".
 
-👤 Author
-Dibuat oleh [Nama Anda] sebagai bagian dari perjalanan menjadi Fullstack Developer.
+## 👤 Author
+**Radit**  
+Mahasiswa Sistem Informasi  
+Belajar Web Development melalui Project-Based Learning
 
 
 ---
