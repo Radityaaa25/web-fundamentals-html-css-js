@@ -3,9 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>SkyCast - Cek Cuaca Realtime</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-  <h1>FIRST</h1>
+  
+  <div class="container">
+
+    <header class="search-box">
+      <input type="text" id="city-input" placeholder="Masukan nama kota (contoh : Jakarta)">
+      <button id="search-btn">
+        <i class='bx  bx-search'></i> 
+      </button>
+    </header>
+
+    <div class="error-message" style="display: none;">
+      <p>Kota tidak ditemukan!</p>
+    </div>
+
+    <main class="weather-info">
+      <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="ikon cuaca" class="weather-icon">
+
+      <h1 class="temp">29°C</h1>
+      <h2 class="city">Jakarta, ID</h2>
+
+      <div class="details">
+        <div class="col">
+          <span class="label">Kelembaban</span>
+          <span class="value humidity">60%</span>
+        </div>
+        <div class="col">
+          <span class="label">Angin</span>
+          <span class="value wind">15 km/j</span>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
