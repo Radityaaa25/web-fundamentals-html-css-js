@@ -19,15 +19,15 @@ Ini adalah project pertama yang melibatkan komunikasi dengan server eksternal (F
 ## 📅 Progress Checklist
 
 ### Day 7 – Setup & UI Structure
-- [ ] **Setup Project** (Folder & API Key Preparation)
-- [ ] **HTML Structure** (Input kota, Tampilan suhu, Ikon cuaca)
-- [ ] **CSS Styling** (Membuat tampilan kartu cuaca yang modern/glassmorphism)
+- [x] **Setup Project** (Folder & API Key Preparation)
+- [x] **HTML Structure** (Input kota, Tampilan suhu, Ikon cuaca)
+- [x] **CSS Styling** (Membuat tampilan kartu cuaca yang modern/glassmorphism)
 
 ### Day 8 – JavaScript API Integration
-- [ ] **Register OpenWeatherMap** (Mendapatkan API Key Gratis)
-- [ ] **Fetch Data Logic** (Mengambil data cuaca berdasarkan input user)
-- [ ] **Update UI** (Menampilkan suhu, kelembaban, dan angin ke layar)
-- [ ] **Error Handling** (Menampilkan pesan jika kota salah)
+- [x] **Register OpenWeatherMap** (Mendapatkan API Key Gratis)
+- [x] **Fetch Data Logic** (Mengambil data cuaca berdasarkan input user)
+- [x] **Update UI** (Menampilkan suhu, kelembaban, dan angin ke layar)
+- [x] **Error Handling** (Menampilkan pesan jika kota salah)
 
 ---
 
