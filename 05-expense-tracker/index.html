@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker - Kelola Uangmu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>FIRST</h1>
+
+    <div class="container">
+        <h2>Expense Tracker</h2>
+        
+        <div class="balance-container">
+            <h4>Saldo Anda</h4>
+            <h1 id="balance">Rp 0</h1>
+        </div>
+
+        <div class="inc-exp-container">
+            <div>
+                <h4>Pemasukan</h4>
+                <p id="money-plus" class="money plus">+Rp 0</p>
+            </div>
+            <div>
+                <h4>Pengeluaran</h4>
+                <p id="money-minus" class="money minus">-Rp 0</p>
+            </div>
+        </div>
+
+        <h3>Riwayat</h3>
+        <ul id="list" class="list">
+            </ul>
+
+        <h3>Transaksi Baru</h3>
+        <form id="form">
+            <div class="form-control">
+                <label for="text">Keterangan</label>
+                <input type="text" id="text" placeholder="Contoh: Gaji, Makan Siang..." />
+            </div>
+            <div class="form-control">
+                <label for="amount">Jumlah <br />
+                    <small>(Negatif = Pengeluaran, Positif = Pemasukan)</small>
+                </label>
+                <input type="number" id="amount" placeholder="Masukan angka..." />
+            </div>
+            <button class="btn">Tambah Transaksi</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
