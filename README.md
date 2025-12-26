@@ -32,9 +32,9 @@ Setiap folder merepresentasikan **1 mini project**, yang dikerjakan secara berta
 - [x] Day 9 – Expense Tracker (UI)
 - [x] Day 10 – Expense Tracker (CRUD)
 - [x] Day 11 – Expense Tracker (Refactor)
-- [ ] Day 12 – Portfolio (Structure)
-- [ ] Day 13 – Portfolio (Responsive & SEO)
-- [ ] Day 14 – Portfolio (Deploy & polish)
+- [x] Day 12 – Portfolio (Structure)
+- [x] Day 13 – Portfolio (Responsive & SEO)
+- [x] Day 14 – Portfolio (Deploy & polish)
 
 
 ## 📁 Daftar Project

@@ -16,9 +16,9 @@ Project ini menggabungkan semua ilmu yang dipelajari: HTML Semantik, CSS Flexbox
 ---
 
 ## 📅 Progress Checklist
-- [ ] **Day 12: HTML Structure** (Navbar, Hero, About, Projects, Contact)
-- [ ] **Day 13: Styling & Layout** (CSS, Colors, Typography)
-- [ ] **Day 14: Responsive & Polish** (Mobile Menu, Animations)
+- [x] **Day 12: HTML Structure** (Navbar, Hero, About, Projects, Contact)
+- [x] **Day 13: Styling & Layout** (CSS, Colors, Typography)
+- [x] **Day 14: Responsive & Polish** (Mobile Menu, Animations)
 
 ---
 
