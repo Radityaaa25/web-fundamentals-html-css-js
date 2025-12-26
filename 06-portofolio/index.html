@@ -1,11 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radit | Web Developer Portfolio</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-  <h1>FIRST</h1>
+
+    <header class="header">
+        <a href="#home" class="logo">Raditya.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Halo, Saya</h3>
+            <h1>Raditya Ananda</h1>
+            <h3>Dan saya seorang <span class="text-animate">Web Developer</span></h3>
+            <p>Mahasiswa Sistem Informasi yang sedang menempuh perjalanan menjadi Fullstack Developer. Saya suka membangun website yang cepat, responsif, dan mudah digunakan.</p>
+            
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="https://ui-avatars.com/api/?name=Raditya+Ananda&background=0D8ABC&color=fff&size=500" alt="Foto Profil">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Coding">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Enthusiast!</h3>
+            <p>Saya memulai perjalanan koding saya melalui "Challenge 55 Hari". Selama proses ini, saya telah mempelajari dasar-dasar HTML, CSS, dan JavaScript dengan membangun berbagai aplikasi nyata. Saya percaya bahwa cara terbaik belajar adalah dengan mempraktikkannya langsung.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            
+            <div class="portfolio-box">
+                <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="portfolio-layer">
+                    <h4>Todo App</h4>
+                    <p>Aplikasi pencatat tugas harian dengan fitur CRUD dasar.</p>
+                    <a href="../01-todo-app/index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://images.unsplash.com/photo-1506784365847-bbad939e9335?auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="portfolio-layer">
+                    <h4>Pomodoro Timer</h4>
+                    <p>Timer produktivitas untuk manajemen waktu kerja dan istirahat.</p>
+                    <a href="../02-pomodoro/index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="portfolio-layer">
+                    <h4>Zenith Audio</h4>
+                    <p>Landing page produk headphone dengan desain responsif modern.</p>
+                    <a href="../03-landing-page/index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="portfolio-layer">
+                    <h4>SkyCast Weather</h4>
+                    <p>Aplikasi cuaca realtime menggunakan OpenWeatherMap API.</p>
+                    <a href="../04-weather-app/index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="portfolio-layer">
+                    <h4>Expense Tracker</h4>
+                    <p>Pencatat keuangan pribadi dengan fitur LocalStorage.</p>
+                    <a href="../05-expense-tracker/index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Raditya | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
