@@ -1,4 +1,4 @@
-# Web Fundamentals — HTML, CSS, JavaScript
+# Phase 1 Web Fundamentals — HTML, CSS, JavaScript
 
 Repository ini berisi kumpulan project fundamental web programming yang saya kerjakan sebagai bagian dari **Project Challenge 55 Hari**.
 
